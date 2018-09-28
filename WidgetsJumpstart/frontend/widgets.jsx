@@ -13,5 +13,5 @@ function Root(){
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
-  ReactDOM.render(<Clock/>, root);
+  ReactDOM.render(<Root />, root);
 });

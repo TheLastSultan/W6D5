@@ -1,0 +1,32 @@
+/* PHASE 12: Modal */
+/* .modal-screen{
+    position: fixed; 
+    z-index: 2;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+} */
+
+.modal-form{
+    position: absolute;
+    background-color: white; ;
+    z-index: 1;
+    top: 30%;
+    right: 40%; 
+    padding: 30px;
+    border: 3px solid black: 
+}
+
+.modal.is-open{
+    display: flex;   
+}
+
+.modal-form > p {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.modal{
+    display: none; 
+}
